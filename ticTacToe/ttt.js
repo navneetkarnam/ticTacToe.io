@@ -10,6 +10,8 @@ var b9 = document.querySelector("#b9");
 
 var x = false;
 
+
+
 b1.addEventListener("click",function(){
 	if(!x){
 		b1.textContent = "X";
