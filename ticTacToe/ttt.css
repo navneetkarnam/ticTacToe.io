@@ -1,0 +1,43 @@
+h1{
+	font-size: 50px;
+	text-align: center;
+	width: 100%
+	padding: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,.1),
+                 0px 8px 23px rgba(0,0,0,.2),
+                 0px 18px 33px rgba(0,0,0,.05);                 
+
+}
+
+
+
+table{
+	margin:auto;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+.a2{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.a1{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#copyrights{
+  margin-top: 5em;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+           0px 8px 13px rgba(0,0,0,0.3),
+           0px 18px 23px rgba(0,0,0,0.2);
+}
+
