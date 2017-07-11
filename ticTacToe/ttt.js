@@ -1,3 +1,7 @@
+var p1 = prompt("Enter player1's Name");
+var p2 = prompt("Enter player2's Name");
+var n1 = document.querySelector(".p1");
+var n2 = document.querySelector(".p2");
 var b1 = document.querySelector("#b1");
 var b2 = document.querySelector("#b2");
 var b3 = document.querySelector("#b3");
@@ -9,6 +13,9 @@ var b8 = document.querySelector("#b8");
 var b9 = document.querySelector("#b9");
 
 var x = false;
+
+n1.textContent = p1;
+n2.textContent = p2;
 
 
 

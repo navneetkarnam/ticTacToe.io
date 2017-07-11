@@ -9,8 +9,19 @@ h1{
 
 }
 
-.p1, .p2, .vs{
+.p1, .p2{
+	text-transform: uppercase;
+	margin:0;
 	font-size: 40px;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,.1),
+                 0px 8px 23px rgba(0,0,0,.2),
+                 0px 18px 33px rgba(0,0,0,.05);
+}
+
+.vs{
+	margin:0;
+	font-size: 20px;
 	text-align: center;
 	text-shadow: 0px 4px 3px rgba(0,0,0,.1),
                  0px 8px 23px rgba(0,0,0,.2),
@@ -20,7 +31,8 @@ h1{
 
 
 table{
-	margin:auto;
+	margin: 10% auto;
+
 }
 
 td{
