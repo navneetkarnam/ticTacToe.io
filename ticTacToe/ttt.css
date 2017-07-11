@@ -1,12 +1,10 @@
 h1{
 	font-size: 50px;
 	text-align: center;
-	width: 100%
-	padding: 20px;
+	padding: 10px;
 	text-shadow: 0px 4px 3px rgba(0,0,0,.1),
                  0px 8px 23px rgba(0,0,0,.2),
-                 0px 18px 33px rgba(0,0,0,.05);                 
-
+                 0px 18px 33px rgba(0,0,0,.05);
 }
 
 .p1, .p2{
@@ -31,35 +29,58 @@ h1{
 
 
 table{
+<<<<<<< HEAD
+	margin:auto;
+	background: #61c7ed;
+
+}
+body{
+	background: #413e42;
+=======
 	margin: 10% auto;
 
+>>>>>>> upstream/master
 }
 
 td{
 	width: 100px;
 	height: 100px;
+	background: pink;
 }
 
 .a2{
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 }
 
 .a1{
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
 }
 
 #copyrights{
-  margin-top: 5em;
+  margin-top: 20px;
   margin-bottom: 0;
   text-align: center;
   font-weight: bold;
-  font-size: 1em;
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-           0px 8px 13px rgba(0,0,0,0.3),
-           0px 18px 23px rgba(0,0,0,0.2);
+  font-size: 1.5em;
+  /*text-shadow: 0px 2px 2px rgba(0,0,0,0.4),*/
+           /*0px 4px 4px rgba(0,0,0,0.3),*/
+           /*0px 8px 8px rgba(0,0,0,0.2);*/
 }
+.jumbotron {
+  max-width: 30%;
+  margin: 50px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  background-color: #b089c6;
+  
+ 
+}
+
+
+
 
 .turn{
 	color: red;
